@@ -1,5 +1,5 @@
 # Novo Café Expresso
-#  Café Expresso - Atentimento
+#  Café Expresso - Atendimento
 
 ##  Descrição do Projeto
 
