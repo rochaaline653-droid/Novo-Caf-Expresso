@@ -22,7 +22,7 @@ public class Pedido {
         double total = 0;
 
         for (ItemPedido item : itens) {
-            total += item.calcularTotal();
+            total += item.calcularSubtotal();
         }
 
         return total;
