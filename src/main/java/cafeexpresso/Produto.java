@@ -1,6 +1,6 @@
 package cafeexpresso;
 public class Produto {
-    private String nome;
+    private String nomes;
     private double preco;
 
     //Construtor de produtos
