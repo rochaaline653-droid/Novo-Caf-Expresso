@@ -1,0 +1,30 @@
+package cafeexpresso;
+import java.util.ArrayList;
+import java.util.List;
+
+public class Pedido {
+
+    private List<ItemPedido> itens;
+
+    public Pedido() {
+        itens = new ArrayList<>();
+    }
+
+    public void adicionarItem(ItemPedido item) {
+        itens.add(item);
+    }
+
+    public List<ItemPedido> getItens() {
+        return itens;
+    }
+
+    public double calcularTotal() {
+        double total = 0;
+
+        for (ItemPedido item : itens) {
+            total += item.calcularTotal();
+        }
+
+        return total;
+    }
+}
