@@ -5,6 +5,12 @@ public class Produto {
 
     //Construtor de produtos
     public Produto(String nome, double preco) {
+        if (nome == null || nome.isBlank()) {
+        throw new IllegalArgumentException("Nome não pode ser vazio");
+    }
+    if (preco <= 0) {
+        throw new IllegalArgumentException("Preço deve ser maior que zero");
+    }
         this.nome = nome;
         this.preco = preco;
     }
@@ -16,4 +22,5 @@ public class Produto {
     public double getPreco() {
         return preco;
     }
+    
 }
