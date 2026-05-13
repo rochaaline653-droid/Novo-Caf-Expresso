@@ -2,7 +2,7 @@ package cafeexpresso;
 
 public enum StatusPedido {
     PENDENTE,
-    EM_ANDAMENTO,
+    PREPARANDO,
     CONCLUIDO,
     ENTREGUE,
     CANCELADO
