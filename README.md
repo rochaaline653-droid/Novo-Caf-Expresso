@@ -16,7 +16,7 @@ O sistema "Café Expresso" tem como objetivo modernizar o atendimento de uma caf
 * Cadastro de produtos
 * Adição de itens ao pedido
 * Cálculo automático do valor total
-* Controle de status do pedido (Pendente, Pago, Em preparo, Finalizado)
+* Controle de status do pedido (Pendente, Preparando, Concluido, Entregue, Cancelado)
 
 ## Estrutura do Sistema
 
